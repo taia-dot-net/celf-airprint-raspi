@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone='no'?><!--*-nxml-*-->
+<!DOCTYPE service-group SYSTEM "avahi-service.dtd">
+<service-group>
+<name replace-wildcards="yes">%h Printing System</name>
+<service>
+<type>_http._tcp</type>
+<port>631</port>
+<txt-record>path=/jobs/</txt-record>
+</service>
+</service-group>
