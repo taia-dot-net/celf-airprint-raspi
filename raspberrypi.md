@@ -2,7 +2,7 @@
 
 on OS X 
 
-* insert SSD into mac
+* insert SD-card into the mac
 * find the device with 
 
 	diskutil list
@@ -53,8 +53,16 @@ restart cups
 ##Issues
 
 halting the raspberry pi does not remove the advertised bonjour service. 
-So the servcie is still visible in safari or celfBrowser even if raspi has been shutdown. 
+So the servcie is still visible in safari or celfCloud Browser even if raspi has been shutdown. 
 Maybe the utilities help here. What about advertising via node or python? 
 
 
 
+
+
+## build essentials
+
+	apt-get install build-essential
+	
+I assume, this package is requires to compile native node modules, like mdns
+	
