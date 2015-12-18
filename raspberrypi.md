@@ -64,5 +64,5 @@ Maybe the utilities help here. What about advertising via node or python?
 
 	apt-get install build-essential
 	
-I assume, this package is requires to compile native node modules, like mdns
+I assume, this package is required to compile native node modules, like mdns
 	
